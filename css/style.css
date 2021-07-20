@@ -3,4 +3,13 @@ html {
   padding: 0;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.search {
+  width: 70%;
+}
+
 /*# sourceMappingURL=style.css.map */
