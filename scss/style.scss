@@ -1,14 +1,29 @@
+
 html {
     margin: 0;
     padding: 0;
 }
 
-.container {
-display: grid;
-grid-template-columns: auto;
-
-}
 
 .search {
-    width: 70%;
+    display: flex;
+    height: 30px;
+    width: 50%;
+   margin: 30px auto;
 }
+
+.container {
+display: grid;
+width: 80%;
+height: 80vh;
+margin: 0 auto;
+
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(4, 1fr);
+img {
+    
+    margin: 0 auto;
+    
+}
+}
+
