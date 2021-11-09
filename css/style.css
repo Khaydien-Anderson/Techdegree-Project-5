@@ -2,6 +2,7 @@
 html {
   margin: 0;
   padding: 0;
+  background-color: beige;
 }
 
 #search {
@@ -23,6 +24,19 @@ html {
 }
 .gallery img {
   width: 200px;
+  border-radius: 50%;
+  border: solid 2px black;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: cursive;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
